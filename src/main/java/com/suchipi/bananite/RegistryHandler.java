@@ -45,7 +45,7 @@ public class RegistryHandler {
     // register item
     public static final RegistryObject<Item> BANANA = ITEMS.register("banana", () ->
         new Item(new Item.Properties().group(ItemGroup.FOOD).food(
-            new Food.Builder().saturation(3).hunger(3).build()
+            new Food.Builder().saturation(1).hunger(1).build()
         ))
     );
 }
